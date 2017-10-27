@@ -1,3 +1,6 @@
+#Fichier de personnalisation de l'affichage CodeBlocks
+*.layout
+
 # Prerequisites
 *.d
 
