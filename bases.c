@@ -15,8 +15,8 @@ typedef struct fraction
 
 // Cet énumération représente l'état d'un résultat.
 typedef enum etatresultat {
-    succes, // = int 0
-    erreur  // = int 1
+    etatSucces, // = int 0
+    etatErreur  // = int 1
 } etatResultat;
 
 // Structure représentant le résultat d'une opération. Elle permet d'indiquer s'il y a eu une erreur, ou le résultat.
