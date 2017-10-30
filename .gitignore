@@ -1,5 +1,8 @@
-#Fichier de personnalisation de l'affichage CodeBlocks
+# Fichier de personnalisation de l'affichage CodeBlocks
 *.layout
+
+# Fichier pour tester une fonction en développement
+test.c 
 
 # Prerequisites
 *.d
@@ -53,4 +56,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-*.layout
