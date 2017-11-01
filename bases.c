@@ -28,6 +28,15 @@ typedef struct resultat
 } Resultat;
 
 
+// Structure représentant le résultat d'une opération renvoyant un code entier. Elle permet d'indiquer s'il y a eu une erreur, ou le résultat.
+// Veuillez retourner une valeur de ce type si le calcul ne fait que renvoyer un état (type Vrai, Faux, Égal...)!
+typedef struct resultatInt
+{
+	etatResultat estErreur;
+	int resultat;
+} ResultatInt;
+
+
 // Si qq'un a besoin, ceci permet de créer une Fraction avec deux entiers.
 Fraction Frac(int n, int d)
 {
