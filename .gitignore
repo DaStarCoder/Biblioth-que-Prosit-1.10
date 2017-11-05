@@ -1,3 +1,7 @@
+# Fichiers de Dev-C++
+*.dev
+makefile.win
+
 # Fichier de personnalisation de l'affichage CodeBlocks
 *.layout
 
