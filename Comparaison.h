@@ -16,6 +16,20 @@ int Comparaison (float a, float b){ // 1 signifie que a est plus petit que b
 	}
 }
 
+//int ComparaisonFractions (Fraction f1, Fraction f2){
+//	if (Fraction f1 < Fraction f2){
+//		return 5;
+//	}else if (Fraction f1 > Fraction f2){
+//		return 6;
+//	}else if (Fraction f1 == Fraction f2){
+//		return 7;
+//	}else if (Fraction f1 == - Fraction f2 && Fraction f1 < Fraction f2){
+//		return 8;
+//	}else if (Fraction f1 == - Fraction f2 && Fraction f1 < Fraction f2){
+//		return 9;
+//	}
+//}
+
 int main(){
 	float a, b;
 	printf("Veuillez entrer 2 nombres avec un espace entre les deux : ");
@@ -39,6 +53,8 @@ int main(){
 	case 4 :
 		printf("a = -b et a>b");
 		break;
+//	case 5 : 
+//		printf(" La fraction ")
 	}
 return 0;
 }
