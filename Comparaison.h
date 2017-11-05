@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "bases.h"
 
 // 0 signifie que a = b
-int Comparaison (float a, float b){ // 1 signifie que a est plus petit que b
+resultatInt Comparer(Fraction f1, Fraction f2) { // 1 signifie que a est plus petit que b
 	if (a<b){ // 2 signifie que a est plus grand que b
 		return 1; // 3 signifie que a et b sont opposés et que a est plus petit que b
 	}else if(a>b){ // 4 signifie que a et b sont opposés et que a est plus grand que b
