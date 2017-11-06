@@ -24,22 +24,22 @@ int main(int nbArgs, char *Args[])
 ### Antonin
 Fichier: `simplification.c`
 ```c
-Fraction Simplifier(Fraction f)
+Fraction simplifier(Fraction f)
 ```
 ### Théo
 Fichier: `Comparaison.c`
 ```c
-Resultat Comparer(Fraction f1, Fraction f2)
+IntResultat comparer(Fraction f1, Fraction f2)
 ```
 ### Léo
 Fichier: `factorielle.c`
 ```c
-Resultat Factorielle(Fraction f) // f!
+Resultat factorielle(Fraction f) // f!
 ```
 ### Yoann
 Fichier: `puissance.c`
 ```c
-Resultat Puissance(Fraction f, Fraction p) // f^p
+Resultat puissance(Fraction f, Fraction p) // f^p
 ```
 ### Tristan
 Fichier: `bases.c`
@@ -49,7 +49,7 @@ Fraction depuisDouble(double x)
 ### Maxime
 Fichier: `arithmetique.c`
 ```c
-Resultat Modulo(Fraction f1, Fraction f2) // f1 % f2
+Resultat modulo(Fraction f1, Fraction f2) // f1 % f2
 ```
 ### Lucas
 Fichier: `puissance.c`
@@ -59,10 +59,10 @@ Resultat Racine(Fraction f, Fraction base) // racine base-ième de f
 ### Nathan
 Fichier: `arithmetique.c`
 ```c
-Resultat Somme(Fraction f1, Fraction f2)
-Resultat Difference(Fraction f1, Fraction f2)
-Resultat Produit(Fraction f1, Fraction f2)
-Resultat Quotient(Fraction f1, Fraction f2)
-Resultat PGCD(Fraction f1, Fraction f2)
-Resultat PPCM(Fraction f1, Fraction f2)
+Resultat somme(Fraction f1, Fraction f2)
+Resultat difference(Fraction f1, Fraction f2)
+Resultat produit(Fraction f1, Fraction f2)
+Resultat quotient(Fraction f1, Fraction f2)
+Resultat pgcd(Fraction f1, Fraction f2)
+Resultat ppcm(Fraction f1, Fraction f2)
 ```
