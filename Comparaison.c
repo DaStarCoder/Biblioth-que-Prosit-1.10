@@ -24,9 +24,13 @@ p = (a*b)/i;
     return p;
    }
 
-int compare(Fraction a, Fraction b){ 
+ResultatInt compare(Fraction a, Fraction b){ 
 Fraction f1 = a;
 Fraction f2 = b;
+if (f1.denominateur == 0 || f2.denominateur == 0){
+	ResultatInt r = {etatErreur, 5};
+	return r;
+} 
 int denocommun = PPCM(f1.denominateur, f2.denominateur);
 int multiplicateur1 = denocommun / f1.denominateur;
 int multiplicateur2 = denocommun / f2.denominateur;
@@ -34,18 +38,18 @@ f1.numerateur = f1.numerateur * multiplicateur1;
 f2.numerateur = f2.numerateur * multiplicateur2;
 
 	if (f1.numerateur == f2.numerateur) {
-		return 0;
+		ResultatInt 0;
 	}
 	else if (f1.numerateur < f2.numerateur) { 
-		return 1; 
+		ResultatInt 1; 
 	}
 	else if (f1.numerateur > f2.numerateur) { 
-		return 2;
+		ResultatInt 2;
 	}
 	else if (f1.numerateur == -f2.numerateur && f1.numerateur < f2.numerateur) {
-		return 3;
+		ResultatInt 3;
 	}
 	else if (f1.numerateur == -f2.numerateur && f1.numerateur > f2.numerateur) {
-		return 4;
+		ResultatInt 4;
 	}
 }

@@ -2,4 +2,4 @@
 #include <stdlib.h>
 #include "bases.h"
 
-int compare(Fraction a, Fraction b);
+ResultatInt compare(Fraction a, Fraction b);
