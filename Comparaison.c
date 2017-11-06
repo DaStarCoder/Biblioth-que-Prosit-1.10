@@ -2,11 +2,9 @@
 #include <stdlib.h>
 #include "Comparaison.h"
 
-int main(int argc, char *argv[]) {
-	float a, b;
+ResultatInt compare(a, b){
 	printf("Veuillez entrer 2 nombres avec un espace entre les deux : ");
 	scanf("%f %f", &a, &b);
-	Comparaison(a,b);
 	int i;
 	switch (i){
 	
@@ -26,5 +24,6 @@ int main(int argc, char *argv[]) {
 		printf("a = -b et a>b");
 		break;
 	}
-	return 0;
+	
+return 0;
 }
