@@ -1,4 +1,4 @@
-// Structs & Fonctions de base - Damien Nouilhan
+// Structs & Fonctions de base - Damien - Tristan
 /*
 
 CE FICHIER CONTIENT LA STRUCTURE DES FRACTIONS UTILISÉES DANS TOUT LE PROGRAMME ET DES FONCTIONS DE BASE POUR LES MANIPULER

@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "bases.h"
-#include "arithmetique.h"
+//#include "arithmetique.h"
 #include "factorielle.h"
 #include "Comparaison.h"
-#include "puissance.h"
+//#include "puissance.h"
 
 Fraction entrerFrac() {
 	Fraction f = { 0, 0 };
@@ -35,7 +35,7 @@ int main()
 		"10\tSimplifier\n"
 		"11\tFactorielle\n");
 	int entree;
-	scanf("%d\n";&entree);
+	scanf("%d\n",&entree);
 	
 	switch (entree)
 	{
@@ -43,49 +43,61 @@ int main()
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(somme(f1, f2));
+	//break;
 	//case 1:
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(difference(f1, f2));
+	//break;
 	//case 2:
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(produit(f1, f2));
+	//break;
 	//case 3:
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(quotient(f1, f2));
+	//break;
 	//case 4:
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(modulo(f1, f2));
+	//break;
 	//case 5:
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(puissance(f1, f2));
+	//break;
 	//case 6:
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(racine(f1, f2));
+	//break;
 	case 7:
 		Fraction f1 = entrerFrac();
 		Fraction f2 = entrerFrac();
 		printf("%d\n",compare(f1, f2).resultat);
+		break;
 	//case 8:
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(pgcd(f1, f2));
+	//break;
 	//case 9:
 	//	Fraction f1 = entrerFrac();
 	//	Fraction f2 = entrerFrac();
 	//	PrintfFrac(ppcm(f1, f2));
+	//break;
 
 	//case 10:
 	//	Fraction f1 = entrerFrac();
 	//	PrintfFrac(simplifier(f1));
+	//break;
 	case 11:
 		Fraction f1 = entrerFrac();
 		PrintfFrac(factorial(f1));
+		break;
 	default:
 		printf("Mauvais choix\n");
 		break;

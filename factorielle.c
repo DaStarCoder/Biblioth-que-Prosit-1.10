@@ -7,8 +7,8 @@ Resultat factorial (Fraction f)
 {
 	if(f.denominateur==1){
 		int i;
-		long rslt;
-		for(i=1,i<=f.numerateur,i++){
+		long rslt = 0;
+		for (i = 1; i <= f.numerateur; i++) {
 			rslt*=i;
 		}
 		Fraction x={rslt,1};
